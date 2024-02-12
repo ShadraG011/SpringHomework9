@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+eureka:
+  instance:
+    hostname: localhost
+
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: tasksmicrosevice
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/tasks/**,
+          filters:
+            - RedirectTo=302, http://localhost:8080/
+        - id: usersmicrosevice
+          uri: http://localhost:8082/
+          predicates:
+            - Path=/users/**

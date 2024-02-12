@@ -1,0 +1,72 @@
+.card-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5px;
+    gap: 15px;
+}
+
+.nav-brand {
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 3px 7px !important;
+}
+.btn.btn-secondary.dropdown-toggle.btn-nav {
+    border-radius: 0 10px 10px 0;
+    padding: 7px 12px !important;
+}
+.sort-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.srt {
+    border: black 1px solid;
+    border-radius: 10px 0px 0px 10px;
+    padding: 7px;
+}
+.sort-task p {
+    margin: 0;
+}
+
+.form {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.textarea {
+    height: 200px;
+}
+
+.set-task-username {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 15px;
+}
