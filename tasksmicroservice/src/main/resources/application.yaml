@@ -8,9 +8,9 @@ spring:
     discovery:
       enabled: true
   datasource:
-    url: jdbc:mysql://localhost:3306/micro-services
-    username: root
-    password: 1234
+    url: jdbc:mysql://localhost:3306/schema-name
+    username: username
+    password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
